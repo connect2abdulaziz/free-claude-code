@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 
+import utils.transport
+import utils.session
 def serve() -> None:
     """Start the FastAPI server (registered as `free-claude-code` script)."""
     import uvicorn
